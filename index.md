@@ -1,44 +1,55 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kalutes/CS193_Fall18_Lab1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kalutes/CS193_Fall18_Lab1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
 # Dat's First CS193 Homework
-- hi
-- dig
-- sfeih
-- uhfseufhsuefh
-- uisehfisehf
+**Here is the list of some of my favorite things about CS193!**
+- The instructor is super cool! He is still an undergrad, and he did a great job of teaching the lectures.
+- No exam!!
+- Terminal is just **"goat"**. I want to learn Terminal!
+- $We \  will\  learn\  latex !!!!!$ $\int_{0}^{2\pi} \int_{0}^{2\pi} \int_{0}^{7} p \ sin(\phi) dp \  d \phi \ d \theta $.
+- <details>
+  <summary>I am terrible at formatting, so it is great to know that we will learn code formatting and coding standards</summary>
+  
+    ```cpp
+      //CODING FORMAT!!!
+      FOR(i,1,K)
+      FOR(cap,0,Q)
+          FOR(last,0,n)
+                     FOR(mask,0,MASK(n)-1)
+                  {
+                      if(cap!=0)
+     minimize(dp[i+1][0][0][mask],dp[i][cap][last][mask]+c[last][0]);
+                      FOR(nxt,1,n)
+      if(cap+d[nxt]<=Q&&BIT(mask,(nxt-1))==0)
+     minimize(dp[i][cap+d[nxt]][nxt][mask|MASK()],dp[i][cap][last][mask]+c[last][nxt]);
+                  }
+  
+                                      ||
+                                      ||
+                                      ||
+                                   ---   ---
+                                   \      /
+                                     \   /
+                                       \/
+    for (int i = 1; i <= K; i++) {
+        for (int cap = 0; cap <= Q; cap++) {
+          for (int last = 0; last <= n; last++) {
+            for (int mask = 0; mask <= (1 LL << (n)) - 1; mask++) {
+              if (cap != 0) {
+                minimize(dp[i + 1][0][0][mask], dp[i][cap][last][mask] + c[last][0]);
+              }
+              for (int nxt = 1; nxt <= n; nxt++) {
+                if (cap + d[nxt] <= Q && BIT(mask, (nxt - 1)) == 0) {
+                  minimize(dp[i][cap + d[nxt]][nxt][mask | (1 LL << (nxt-1) )], dp[i][cap][last][mask] + c[last][nxt]);
+                }
+              }
+            }
+          }
+        }
+    }
+     //is not at the industry standard, but at least it is readable :D
+    ```
+    
+    </details>
+- Learn markdown because i'm bad at writing.
+### That's it!
+
+![Alt Text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzBvM3c4bHRzcWFrbG52OHlueDFxem9zYW5maGNzcDQ1eGsxcjQwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uWlpPGquhGZNFzY90z/giphy.gif)
+   
